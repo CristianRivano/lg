@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full w-full bg-[#3B141A]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Vimeus Reproductor Fullscreen</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            background-color: #3B141A;
+        }
+        iframe {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            border: none;
+            outline: none;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body class="h-screen w-screen overflow-hidden bg-[#3B141A] m-0 p-0">
+    <iframe
+        src="https://vimeus.net/e/movie?tmdb=1368337&view_key=D3dX7LTo6CgnhLGPyKahD9gDNZ2n82wJ2mpWu-SjS0M&title=Pelisjuanita&theme=minimal&autoplay=1"
+        allowfullscreen
+        allow="autoplay; fullscreen; picture-in-picture"
+        class="w-full h-full border-0 outline-none m-0 p-0 absolute inset-0">
+    </iframe>
+</body>
+</html>
